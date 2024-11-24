@@ -176,6 +176,18 @@ body {
     margin: 0;
 }
 
+.opt-text {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+}
+
+.opt-text a {
+    font-size: 12px;
+    color:rgb(187, 187, 187);
+    text-decoration: underline dotted;
+}
+
+
 .text-down {
     margin: 3px;
     left: 12px;
