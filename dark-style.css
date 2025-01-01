@@ -5,6 +5,10 @@
     color: white;
 }
 
+a {
+    
+}
+
 body {
     background-image: url("./assets/dark-bg.png");
     margin: 0;
@@ -118,6 +122,7 @@ body {
 
 .sm-button:hover {
     background: url(./assets/sm-button-hover.png);
+    transition: 0.6s;
 }
 
 .sm-button:active {
