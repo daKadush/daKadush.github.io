@@ -1,0 +1,254 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black url(/assets/images/bg.png) repeat scroll top left;
+    /*background: #2e0d1c url(/assets/images/bg.png) repeat scroll top left;*/
+    min-width: 940px;
+    color: #eaeaea;
+    font-size: 14px;
+    line-height: 1.3;
+    animation: move-background 6s linear infinite;
+    z-index: -2;
+}
+
+h3 {
+    font: bold;
+    color: #ffc150;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+a:link , a:visited {
+    text-decoration: none;
+    color: #ffe599;
+}
+
+a:hover {
+    color: #ffd042;
+}
+
+hr {
+    color: #0d0d0d;
+    border-bottom: #444444;
+}
+
+.navbar-spacing {
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.top-gradient {
+    z-index: -1;
+    height: 276px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background: transparent url(/assets/images/grad.png) repeat-x scroll top left;
+}
+
+
+header {
+    min-width: 908px;
+    max-width: 908px;
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+    display: grid;
+}
+
+#header-banner {
+    width: 908px;
+    height: 220px;
+    background-image: url("/assets/images/pattern.png");
+    animation: move-banner 3s linear infinite;
+}
+
+#marwarn {
+    background: rgb(239, 161, 26);
+    color: #000000;
+    text-align: center;
+    max-height: 18px;
+    overflow: hidden;
+}
+
+
+.underheader {
+    background: #DBA4D4;
+    color: #000000;
+}
+
+.underheader span {
+    margin: 0 16px;
+}
+
+.content-content {
+    position: relative;
+}
+
+.content-content-content {
+    display: flex;
+}
+
+.outer-content-block {
+    padding: 0 15px;
+}
+
+.inner-content-block {
+    border-top: 2px solid #444444;
+    padding: .5em 0px;
+}
+
+.date-block {
+    border-bottom: 1px solid #0d0d0d;
+    padding: .2em 0px;
+}
+
+.sidetitle-block {
+    border-bottom: 1px solid #0d0d0d;
+    padding: .2em 0px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+
+.main-block-outer {
+    position: relative;
+    margin-top: 30px;
+    margin: 10px 10px auto auto ; 
+    max-width: 600px;
+    width: 600px;
+    right: 0;
+    display: block;
+}
+
+.side-block-outer {
+    position: relative;
+    margin: 10px auto 5px 0; 
+    max-width: 298px;
+    min-width: 298px;
+    left: 0;
+    display: block;
+}
+
+
+.main-block , .side-block {
+    background-color: #2c2c2c;
+    border: 1px solid #444444;
+    margin-bottom: 15px;
+}
+
+.footer {
+    position: relative;
+    margin-top: 30px;
+    max-width: 908px;
+    min-height: 50px;
+    margin: auto ; 
+}
+
+.footer-content {
+    position: fixed;
+    bottom: 0;  
+}
+
+.footer-footer {
+    background-color: #2c2c2c;
+    border: 1px solid #444444;
+    border-top: 2px solid #444444;
+    max-height: 150px;
+    margin: 0;
+    font-size: 12px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-footer img {
+
+    position: absolute;
+    image-rendering: pixelated; 
+    bottom: 0;
+    margin-left: -270px;
+    margin-bottom: 6px;
+}
+
+.side-block ul {
+    margin-left: -20px;
+}
+
+#tw:hover {
+    color: #157DC3;
+}
+
+#bsky:hover {
+    color: #1185FE;
+}
+
+#yt:hover {
+    color: #D82523;
+}
+
+#neko:hover {
+    color: #B22860;
+}
+
+.aero-button {
+    color: white;
+    padding: 5px 6px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-flex;
+    cursor: default;
+    width: 258px;
+    height: 21px;
+    image-rendering: pixelated;
+}
+
+.text-down {
+    margin: 2px;
+    left: 12px;
+    text-align: left;
+  }
+
+.aero-button h4 {
+    margin: 0;
+}
+
+
+.aero-button:hover {
+    background-image:url("/assets/images/button/aero-button.png");
+}
+
+.aero-button:active {
+    outline: 1px solid rgba(0, 119, 255, 0.7);
+    background-image:url("/assets/images/button/aero-button-pressed.png");
+}
+
+textarea {
+    background: #0e0e0e;
+    border: 1px solid #444444;
+    color: rgb(206, 206, 206);
+    width: 390px;
+    height: 80px;
+    resize: none;
+    margin-top: 10px;
+}
+
+@keyframes move-background {
+    from {
+      background-position: 100px 100px, 100px 100px;
+    }
+  }
+
+@keyframes move-banner {
+    from {
+      background-position: -100px -100px, -100px -100px;
+    }
+  }

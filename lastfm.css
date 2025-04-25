@@ -1,0 +1,10 @@
+#playing {margin: 1px;} 
+#trackName {margin: 0;} 
+#artistName {margin: 0;}
+
+
+#listening img {
+    height: 128px;
+    width: 128px;
+    background: url("/assets/images/album-cover.png");
+}
